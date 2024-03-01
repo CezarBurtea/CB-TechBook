@@ -1,0 +1,76 @@
+﻿@model mysql_connect.Models.Client
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+
+
+    .btn-details {
+        background-color: #17a2b8; /* Teal */
+        color: #fff; /* White */
+    }
+
+
+    .action-button {
+        margin-bottom: 10px; /* Adjust the margin for space between buttons */
+        transition: all 0.3s ease;
+    }
+
+        .action-button:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+</style>>
+
+<h1>Details</h1>
+
+<h4>Client</h4>
+<hr />
+
+<div>
+    <a asp-action="Index" class="btn btn-details action-button">Back to List</a>
+</div>
+
+<div class="details-container">
+    <div class="details-section">
+        <dl class="row">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nume)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Nume)
+            </dd>
+
+            <!-- Add details for other properties as needed -->
+            <dt>
+                @Html.DisplayNameFor(model => model.Prenume)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Prenume)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Adresa)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Adresa)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Nr_telefon)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Nr_telefon)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+        </dl>
+    </div>
+</div>

@@ -1,0 +1,79 @@
+﻿@model mysql_connect.Models.Accesoriu
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+
+
+    .btn-details {
+        background-color: #17a2b8; /* Teal */
+        color: #fff; /* White */
+    }
+
+
+    .action-button {
+        margin-bottom: 10px; /* Adjust the margin for space between buttons */
+        transition: all 0.3s ease;
+    }
+
+        .action-button:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+</style>
+
+<h1>Create</h1>
+
+<h4>Accesorii</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" asp-controller="Accesoriu" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID_Categorie" class="control-label"></label>
+                <input asp-for="ID_Categorie" class="form-control" />
+                <span asp-validation-for="ID_Categorie" class="text-danger"></span>
+            </div>
+            <!-- Add form fields for other properties as needed -->
+            <div class="form-group">
+                <label asp-for="Tip" class="control-label"></label>
+                <input asp-for="Tip" class="form-control" />
+                <span asp-validation-for="Tip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nume_Accesoriu" class="control-label"></label>
+                <input asp-for="Nume_Accesoriu" class="form-control" />
+                <span asp-validation-for="Nume_Accesoriu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pret" class="control-label"></label>
+                <input asp-for="Pret" class="form-control" />
+                <span asp-validation-for="Pret" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stoc" class="control-label"></label>
+                <input asp-for="Stoc" class="form-control" />
+                <span asp-validation-for="Stoc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUrl" class="control-label"></label>
+                <input asp-for="ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-details action-button">Back to List</a>
+</div>
+
+<section Scripts>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+</section>

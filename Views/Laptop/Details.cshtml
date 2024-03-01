@@ -1,0 +1,83 @@
+﻿@model mysql_connect.Models.Laptop
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+
+
+    .btn-details {
+        background-color: #17a2b8; /* Teal */
+        color: #fff; /* White */
+    }
+
+
+    .action-button {
+        margin-bottom: 10px; /* Adjust the margin for space between buttons */
+        transition: all 0.3s ease;
+    }
+
+        .action-button:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+</style>>
+
+<h1>Details</h1>
+
+<h4>Laptop</h4>
+<hr />
+
+<div>
+    <a asp-action="Index" class="btn btn-details action-button">Back to List</a>
+</div>
+
+<div class="details-container">
+    <!-- Details -->
+    <div class="details-section">
+        <dl class="row">
+            <dt>
+                @Html.DisplayNameFor(model => model.ID_SO)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.ID_SO)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Marca)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Marca)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Model)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Model)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Pret)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Pret)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Caracteristici_Tehnice)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Caracteristici_Tehnice)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Stoc)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Stoc)
+            </dd>
+        </dl>
+    </div>
+</div>

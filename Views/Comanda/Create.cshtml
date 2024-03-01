@@ -1,0 +1,63 @@
+﻿@model mysql_connect.Models.Comanda
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+
+
+    .btn-details {
+        background-color: #17a2b8; /* Teal */
+        color: #fff; /* White */
+    }
+
+
+    .action-button {
+        margin-bottom: 10px; /* Adjust the margin for space between buttons */
+        transition: all 0.3s ease;
+    }
+
+        .action-button:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+</style>
+
+<h1>Create</h1>
+
+<h4>Comanda</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID_Client" class="control-label"></label>
+                <input asp-for="ID_Client" class="form-control" />
+                <span asp-validation-for="ID_Client" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data_Comenzii" class="control-label"></label>
+                <input asp-for="Data_Comenzii" class="form-control" />
+                <span asp-validation-for="Data_Comenzii" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Detalii_Comanda" class="control-label"></label>
+                <input asp-for="Detalii_Comanda" class="form-control" />
+                <span asp-validation-for="Detalii_Comanda" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-details action-button">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

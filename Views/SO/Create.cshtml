@@ -1,0 +1,52 @@
+﻿@model mysql_connect.Models.SO
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+
+
+    .btn-details {
+        background-color: #17a2b8; /* Teal */
+        color: #fff; /* White */
+    }
+
+
+    .action-button {
+        margin-bottom: 10px; /* Adjust the margin for space between buttons */
+        transition: all 0.3s ease;
+    }
+
+        .action-button:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+</style>>
+<h1>Create</h1>
+
+<h4>SO</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" asp-controller="SO" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Sistem_operare" class="control-label"></label>
+                <input asp-for="Sistem_operare" class="form-control" />
+                <span asp-validation-for="Sistem_operare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-details action-button">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

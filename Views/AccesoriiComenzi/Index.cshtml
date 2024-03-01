@@ -1,0 +1,27 @@
+﻿@model List<mysql_connect.Models.AccesoriuComenzi>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Accesoriu Comenzi Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Accesoriu</th>
+            <th>ID Comenzi</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID_Accesoriu</td>
+                <td>@item.ID_Comenzi</td>
+
+            </tr>
+        }
+    </tbody>
+</table>

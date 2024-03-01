@@ -1,0 +1,54 @@
+﻿@model mysql_connect.Models.Comanda
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+
+
+    .btn-details {
+        background-color: #17a2b8; /* Teal */
+        color: #fff; /* White */
+    }
+
+
+    .action-button {
+        margin-bottom: 10px; /* Adjust the margin for space between buttons */
+        transition: all 0.3s ease;
+    }
+
+        .action-button:hover {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+</style>
+
+<h1>Details</h1>
+
+<h4>Comanda</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.ID_Client)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.ID_Client)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Data_Comenzii)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Data_Comenzii)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Detalii_Comanda)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Detalii_Comanda)
+    </dd>
+</dl>
+
+<div>
+    <a asp-action="Index" class="btn btn-details action-button">Back to List</a>
+</div>

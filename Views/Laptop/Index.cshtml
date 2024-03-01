@@ -1,0 +1,76 @@
+﻿@model List<mysql_connect.Models.Laptop>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .action-button {
+        margin-bottom: 10px; /* Adjust the margin for space between buttons */
+        transition: all 0.3s ease;
+    }
+
+    .btn-container {
+        display: flex;
+    }
+
+    .btn-create {
+        background-color: #007bff; /* Blue */
+        color: #fff; /* White */
+    }
+
+    .btn-edit {
+        background-color: #6c757d; /* Gray */
+        color: #fff; /* White */
+    }
+
+    .btn-details {
+        background-color: #17a2b8; /* Teal */
+        color: #fff; /* White */
+    }
+
+    .btn-delete {
+        background-color: #dc3545; /* Red */
+        color: #fff; /* White */
+    }
+</style>
+
+<h1>Laptop Index</h1>
+
+<div class="btn-container">
+    <a asp-action="Create" class="btn btn-create action-button">Create New</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>ID SO</th>
+            <th>Marca</th>
+            <th>Model</th>
+            <th>Pret</th>
+            <th>Caracteristici Tehnice</th>
+            <th>Stoc</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ID_Laptop</td>
+                <td>@item.ID_SO</td>
+                <td>@item.Marca</td>
+                <td>@item.Model</td>
+                <td>@item.Pret</td>
+                <td>@item.Caracteristici_Tehnice</td>
+                <td>@item.Stoc</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID_Laptop" class="btn btn-edit action-button">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.ID_Laptop" class="btn btn-details action-button">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.ID_Laptop" class="btn btn-delete action-button" onclick="return confirm('Are you sure you want to delete this item?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
