@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-mysql_connect-ccf33785-ef2a-4dc1-af36-4bf180131927</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Views\Laptop\" />
+    <None Remove="Views\Accesoriu\" />
+    <None Remove="Views\Categorie\" />
+    <None Remove="Views\Client\" />
+    <None Remove="Views\Comanda\" />
+    <None Remove="Views\SO\" />
+    <None Remove="Views\AccesoriiComenzi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\css\fundal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Laptop\" />
+    <Folder Include="Views\Accesoriu\" />
+    <Folder Include="Views\Categorie\" />
+    <Folder Include="Views\Client\" />
+    <Folder Include="Views\Comanda\" />
+    <Folder Include="Views\SO\" />
+    <Folder Include="Views\AccesoriiComenzi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\css\fundal.jpeg" />
+  </ItemGroup>
+</Project>

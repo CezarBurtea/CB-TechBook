@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/mysql_connect.props" />
+</Project>

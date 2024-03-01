@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mysql_connect
+build_property.RootNamespace = mysql_connect
+build_property.ProjectDir = /Users/cezarburtea/Projects/mysql_connect/mysql_connect/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/cezarburtea/Projects/mysql_connect/mysql_connect
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/AccesoriiComenzi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjZXNvcmlpQ29tZW56aS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/AccesoriiComenzi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjZXNvcmlpQ29tZW56aS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Accesoriu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjZXNvcml1L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Accesoriu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjZXNvcml1L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Accesoriu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjZXNvcml1L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Accesoriu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjZXNvcml1L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Accesoriu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjZXNvcml1L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Categorie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Categorie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Categorie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Categorie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Categorie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Categorie/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllL1Nob3dTZWFyY2hGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Client/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Client/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Client/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Client/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Client/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xpZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Comanda/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tYW5kYS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Comanda/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tYW5kYS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Comanda/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tYW5kYS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Comanda/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tYW5kYS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Comanda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tYW5kYS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Comanda/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tYW5kYS9TaG93U2VhcmNoRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Laptop/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Laptop/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Laptop/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Laptop/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Laptop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/SO/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU08vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/SO/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU08vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/SO/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU08vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/SO/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU08vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/SO/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU08vU2hvd1NlYXJjaEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/cezarburtea/Projects/mysql_connect/mysql_connect/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-o84m7xvgbd
